@@ -6,8 +6,8 @@ import Footer from "../components/Footer";
 const Index = () => {
   const products = [
     {
-      image: "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg",
-      name: "Elegant Evening Dress",
+      image: "https://images.pexels.com/photos/2836486/pexels-photo-2836486.jpeg",
+      name: "Luxury Skincare Set",
       price: "$299",
     },
     {
@@ -16,13 +16,13 @@ const Index = () => {
       price: "$499",
     },
     {
-      image: "https://images.pexels.com/photos/3785156/pexels-photo-3785156.jpeg",
-      name: "Luxury Watch",
+      image: "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg",
+      name: "Premium Makeup Kit",
       price: "$899",
     },
     {
-      image: "https://images.pexels.com/photos/3785161/pexels-photo-3785161.jpeg",
-      name: "Diamond Necklace",
+      image: "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg",
+      name: "Fashion Accessories Set",
       price: "$1,299",
     },
   ];

@@ -1,3 +1,5 @@
+import { Instagram, Facebook, Twitter } from "lucide-react";
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-white py-12">
@@ -12,18 +14,27 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-secondary">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-secondary">Contact</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-secondary">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-secondary">Terms of Service</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-secondary transition-colors">About Us</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-secondary transition-colors">Contact</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-secondary transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-secondary transition-colors">Terms of Service</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-secondary">Instagram</a>
-              <a href="#" className="text-gray-400 hover:text-secondary">Facebook</a>
-              <a href="#" className="text-gray-400 hover:text-secondary">Twitter</a>
+            <div className="flex space-x-6">
+              <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
+                <Instagram className="w-6 h-6" />
+                <span className="sr-only">Instagram</span>
+              </a>
+              <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
+                <Facebook className="w-6 h-6" />
+                <span className="sr-only">Facebook</span>
+              </a>
+              <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
+                <Twitter className="w-6 h-6" />
+                <span className="sr-only">Twitter</span>
+              </a>
             </div>
           </div>
         </div>
