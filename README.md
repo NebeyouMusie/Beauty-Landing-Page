@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Beauty Landing Page
 
 ## Project info
 
