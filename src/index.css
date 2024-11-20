@@ -37,10 +37,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-.hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://images.unsplash.com/photo-1649972904349-6e44c42644a7');
-  background-size: cover;
-  background-position: center;
-}
