@@ -42,7 +42,7 @@ const Index = () => {
         </div>
         <div className="hidden md:block w-1/2">
           <img 
-            src="https://images.pexels.com/photos/6800941/pexels-photo-6800941.jpeg?auto=compress&cs=tinysrgb&w=600" 
+            src="https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=600" 
             alt="Fashion Model"
             className="w-full h-[600px] object-cover rounded-lg"
             loading="lazy"
@@ -57,9 +57,10 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="relative h-96 rounded-lg overflow-hidden group">
               <img
-                src="https://images.pexels.com/photos/3785170/pexels-photo-3785170.jpeg"
+                src="https://images.pexels.com/photos/8140916/pexels-photo-8140916.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Summer Collection"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
                 <div className="text-center">
@@ -72,9 +73,10 @@ const Index = () => {
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden group">
               <img
-                src="https://images.pexels.com/photos/3785156/pexels-photo-3785156.jpeg"
+                src="https://images.pexels.com/photos/8989967/pexels-photo-8989967.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Autumn Collection"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
                 <div className="text-center">
