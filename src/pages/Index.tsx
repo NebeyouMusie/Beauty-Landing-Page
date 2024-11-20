@@ -6,22 +6,22 @@ import Footer from "../components/Footer";
 const Index = () => {
   const products = [
     {
-      image: "https://images.pexels.com/photos/2836486/pexels-photo-2836486.jpeg",
+      image: "https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?auto=compress&cs=tinysrgb&w=600",
       name: "Luxury Skincare Set",
       price: "$299",
     },
     {
-      image: "https://images.pexels.com/photos/3785170/pexels-photo-3785170.jpeg",
+      image: "https://images.pexels.com/photos/4046316/pexels-photo-4046316.jpeg?auto=compress&cs=tinysrgb&w=600",
       name: "Designer Handbag",
       price: "$499",
     },
     {
-      image: "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg",
+      image: "https://media.istockphoto.com/id/1442034369/photo/mockup-for-bathing-products-top-view-flat-lay-spa-razor-toothpaste-soap-gel-and-other-various.jpg?b=1&s=612x612&w=0&k=20&c=j8r5vMJqbJm9hngAEC8kElEkI4ZfCZYefsQnFoTojHQ=",
       name: "Premium Makeup Kit",
       price: "$899",
     },
     {
-      image: "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg",
+      image: "https://images.pexels.com/photos/6724350/pexels-photo-6724350.jpeg?auto=compress&cs=tinysrgb&w=600",
       name: "Fashion Accessories Set",
       price: "$1,299",
     },
@@ -42,9 +42,10 @@ const Index = () => {
         </div>
         <div className="hidden md:block w-1/2">
           <img 
-            src="https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg" 
+            src="https://images.pexels.com/photos/6800941/pexels-photo-6800941.jpeg?auto=compress&cs=tinysrgb&w=600" 
             alt="Fashion Model"
             className="w-full h-[600px] object-cover rounded-lg"
+            loading="lazy"
           />
         </div>
       </section>
